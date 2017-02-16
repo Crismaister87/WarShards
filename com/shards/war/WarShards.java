@@ -10,14 +10,11 @@ import com.badlogic.gdx.utils.Logger;
 public class WarShards extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
-	private Logger logger;
 	
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
 		img = new Texture("badlogic.jpg");
-		logger = new Logger("test",Logger.ERROR);
-		logger.error("test");
 	}
 
 	@Override
